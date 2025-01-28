@@ -1,6 +1,9 @@
-function sumar(a ,b, c){
+var sumar = function(a ,b, c=3){
     return a + b + c;
 
 }
-var msj = sumar
-console.log(msj)
+var result = sumar(4,5,8);
+var result1 = sumar(3,7);
+console.log(result);
+
+console.log(result1);
