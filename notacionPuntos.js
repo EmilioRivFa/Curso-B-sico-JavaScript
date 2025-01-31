@@ -12,11 +12,16 @@ const miPais = {
     pais : 'mexico',
     capital : 'cdmx',
     lenguaje : 'español',
-    poblacion : '2,000,000',
+    poblacion : '6,000,000',
     vecinos : ['estados_unidos', 'Canada', 'guatamela']
 }
 console.log(
     `${miPais.pais}tiene ${miPais.poblacion}de personas que hablan 
     ${miPais.lenguaje}tiene como vecinos a: ${miPais.vecinos}
     y una capital llamada ${miPais.capital}`);
+
+    miPais.poblacion +=2;
+    console.log(miPais.poblacion);
     
+    miPais['poblacion'] -= 2;
+    console.log(miPais.poblacion);
