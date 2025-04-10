@@ -1,0 +1,9 @@
+/*const lenguage = 'spanish';
+var poblacion = '1.5M'
+const continente  ='American'
+console.log(lenguage, poblacion = '7.0M', continente)*/
+language = 'portuguese';
+const country = 'Portugal';
+const continent = 'Europe';
+const isIsland = false;
+isIsland = true;
